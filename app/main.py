@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from langcorn import create_service
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from conversation import conversation
+from app.conversation import conversation
 
 
 class Input(BaseModel):
